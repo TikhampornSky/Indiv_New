@@ -1,8 +1,9 @@
 import posts from '../../posts.json'
+import style from'../../style/display.module.css'
 
 const Post = props => {
     return (
-        <div>
+        <div className={style.test}> 
             <h1>{props.post.title}</h1>
             <p>{props.post.content}</p>
             <p>{props.post.Instructor}</p>
